@@ -1,0 +1,8 @@
+venv/
+*.sqlite
+*.db
+logs/
+target/
+dbt_packages/
+modules/
+.dbt/
