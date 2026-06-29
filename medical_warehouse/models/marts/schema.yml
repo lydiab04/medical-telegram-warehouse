@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: fct_channel_engagement
+    description: "Aggregated performance and engagement metrics for crawled medical Telegram channels."
+    columns:
+      - name: channel_name
+        description: "The unique handle of the Telegram channel."
+        tests:
+          - not_null
+
+      - name: total_messages
+        description: "Total volume of posts extracted from the channel."
+        tests:
+          - not_null
+
+      - name: total_views
+        description: "Cumulative count of views across all posts."
+        tests:
+          - not_null

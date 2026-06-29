@@ -1,0 +1,1132 @@
+[0m06:35:14.002974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002477DFDDE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002477A5CF4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247000D7C50>]}
+
+
+============================== 06:35:14.054885 | 0700dad9-d80a-4296-b7d5-2f677757e83d ==============================
+[0m06:35:14.054885 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:35:14.055888 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m06:35:14.056836 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m06:35:14.058087 [debug] [MainThread]: Command `dbt run` failed at 06:35:14.057922 after 0.26 seconds
+[0m06:35:14.058521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247000EAB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024700131A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247000BE140>]}
+[0m06:35:14.058969 [debug] [MainThread]: Flushing usage events
+[0m06:35:15.884813 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:35:35.019399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3FFA99E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3FC03F4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E401ADBC50>]}
+
+
+============================== 06:35:35.028038 | b9923ef2-eabf-4790-bf48-267c75f49adf ==============================
+[0m06:35:35.028038 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:35:35.029337 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m06:35:35.029800 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m06:35:35.030735 [debug] [MainThread]: Command `dbt run` failed at 06:35:35.030602 after 0.19 seconds
+[0m06:35:35.031123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E401AEAB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E401B31A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E401ABE140>]}
+[0m06:35:35.031478 [debug] [MainThread]: Flushing usage events
+[0m06:35:36.608212 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:40:39.099997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B341B9E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B307BF4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B362D7C50>]}
+
+
+============================== 06:40:39.105777 | c55ef328-009c-4439-a077-c968311b16f0 ==============================
+[0m06:40:39.105777 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:40:39.106542 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:40:39.211016 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "medical_warehouse", target "dev" invalid: 'schema_directory' is a required property
+[0m06:40:39.212359 [debug] [MainThread]: Command `dbt run` failed at 06:40:39.212186 after 0.35 seconds
+[0m06:40:39.212808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B3637D220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B363C4170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018B362BECF0>]}
+[0m06:40:39.213243 [debug] [MainThread]: Flushing usage events
+[0m06:40:41.009025 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:41:23.832124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E10CD9E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E0D2CF4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E12DD8690>]}
+
+
+============================== 06:41:23.840449 | cc71aa46-81d2-4f59-bd63-9f77fac0e419 ==============================
+[0m06:41:23.840449 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:41:23.842028 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:41:23.847787 [error] [MainThread]: Encountered an error:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Runtime Error
+    Syntax error near line 9
+    ------------------------------
+    6  |       threads: 1
+    7  |       database: "medical_db"
+    8  |       schema: "analytics"
+    9  |       schema_directory: "C:\Users\lydia\Desktop\medical-telegram-warehouse"
+    
+    Raw Error:
+    ------------------------------
+    while parsing a quoted scalar
+      in "<unicode string>", line 9, column 25
+    did not find expected hexdecimal number
+      in "<unicode string>", line 9, column 30
+  
+[0m06:41:23.849795 [debug] [MainThread]: Command `dbt run` failed at 06:41:23.849548 after 0.15 seconds
+[0m06:41:23.850730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E12DEC640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E12DF4710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E12DBD370>]}
+[0m06:41:23.851518 [debug] [MainThread]: Flushing usage events
+[0m06:41:25.042311 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:42:04.753094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A51059DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A50CB5F4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A5125D7C50>]}
+
+
+============================== 06:42:04.761779 | ad2880fe-90a7-4294-a711-f141638f702a ==============================
+[0m06:42:04.761779 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:42:04.763293 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:42:04.800078 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "medical_warehouse", target "dev" invalid: 'schemas_and_paths' is a required property
+[0m06:42:04.801765 [debug] [MainThread]: Command `dbt run` failed at 06:42:04.801578 after 0.25 seconds
+[0m06:42:04.802237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A51267D220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A5126C4170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A5125C2CF0>]}
+[0m06:42:04.802872 [debug] [MainThread]: Flushing usage events
+[0m06:42:05.831131 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:42:40.689439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C940B9E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C906BF4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C960DBC50>]}
+
+
+============================== 06:42:40.695012 | a09fc142-3ec7-4b56-8ceb-bdd268dba5d6 ==============================
+[0m06:42:40.695012 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:42:40.695954 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:42:41.910762 [warn ] [MainThread]: State adapter: Git branch detection skipped: Git error: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+[0m06:42:41.911496 [info ] [MainThread]: State adapter: dbt-state v2.23.6 is enabled
+[0m06:42:52.509975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a09fc142-3ec7-4b56-8ceb-bdd268dba5d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C9813F950>]}
+[0m06:42:52.592393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a09fc142-3ec7-4b56-8ceb-bdd268dba5d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C96824C00>]}
+[0m06:42:52.612326 [info ] [MainThread]: Registered adapter: sqlite=1.10.0
+[0m06:42:53.144435 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m06:42:53.145814 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m06:42:53.146383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a09fc142-3ec7-4b56-8ceb-bdd268dba5d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C98106E50>]}
+[0m06:42:56.936956 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.medical_warehouse.marts
+[0m06:42:56.942789 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a09fc142-3ec7-4b56-8ceb-bdd268dba5d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C98206B70>]}
+[0m06:42:57.010156 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:42:57.013057 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:42:57.016360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a09fc142-3ec7-4b56-8ceb-bdd268dba5d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C989DB930>]}
+[0m06:42:57.016862 [info ] [MainThread]: Found 1 model, 416 macros
+[0m06:42:57.017428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a09fc142-3ec7-4b56-8ceb-bdd268dba5d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C987F35F0>]}
+[0m06:42:57.019510 [info ] [MainThread]: 
+[0m06:42:57.020065 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m06:42:57.020501 [info ] [MainThread]: 
+[0m06:42:57.021091 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m06:42:57.021450 [warn ] [MainThread]: State adapter: dbt State disabled: target type 'sqlite' is not supported. Supported target types are: bigquery, databricks, postgres, redshift, snowflake.
+[0m06:42:57.022658 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_medical_db'
+[0m06:42:57.035426 [debug] [ThreadPool]: Using sqlite connection "list_medical_db"
+[0m06:42:57.035922 [debug] [ThreadPool]: On list_medical_db: BEGIN
+[0m06:42:57.036255 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:42:57.036977 [debug] [ThreadPool]: SQLite adapter: Error running SQL: BEGIN
+[0m06:42:57.037376 [debug] [ThreadPool]: SQLite adapter: Rolling back transaction.
+[0m06:42:57.037821 [debug] [ThreadPool]: SQLite adapter: Error running SQL: macro list_schemas
+[0m06:42:57.038135 [debug] [ThreadPool]: SQLite adapter: Rolling back transaction.
+[0m06:42:57.039744 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:42:57.040105 [debug] [MainThread]: Connection 'list_medical_db' was properly closed.
+[0m06:42:57.040409 [info ] [MainThread]: 
+[0m06:42:57.040913 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.02 seconds (0.02s).
+[0m06:42:57.041623 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error
+    Database Error
+      at least one schema must be called 'main'
+[0m06:42:57.043613 [debug] [MainThread]: Command `dbt run` failed at 06:42:57.043329 after 16.58 seconds
+[0m06:42:57.044402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C960DC4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C988D2BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C988D2AF0>]}
+[0m06:42:57.045040 [debug] [MainThread]: Flushing usage events
+[0m06:43:01.291092 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:44:58.678432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E09DCA9E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E09A29F4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E09FDD7C50>]}
+
+
+============================== 06:44:58.728904 | c826a52d-f5b0-4726-9932-9927020b1479 ==============================
+[0m06:44:58.728904 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:44:58.730313 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:45:00.892026 [warn ] [MainThread]: State adapter: Git branch detection skipped: Git error: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+[0m06:45:00.892989 [info ] [MainThread]: State adapter: dbt-state v2.23.6 is enabled
+[0m06:45:17.308249 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c826a52d-f5b0-4726-9932-9927020b1479', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A0D3F950>]}
+[0m06:45:17.411151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c826a52d-f5b0-4726-9932-9927020b1479', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A04F4C00>]}
+[0m06:45:17.436376 [info ] [MainThread]: Registered adapter: sqlite=1.10.0
+[0m06:45:18.186991 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m06:45:18.325357 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m06:45:18.326155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c826a52d-f5b0-4726-9932-9927020b1479', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A2015250>]}
+[0m06:45:21.998548 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.medical_warehouse.marts
+[0m06:45:22.005183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c826a52d-f5b0-4726-9932-9927020b1479', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A0E06C60>]}
+[0m06:45:22.067913 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:45:22.110449 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:45:22.113287 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c826a52d-f5b0-4726-9932-9927020b1479', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A260FE70>]}
+[0m06:45:22.113858 [info ] [MainThread]: Found 1 model, 416 macros
+[0m06:45:22.114578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c826a52d-f5b0-4726-9932-9927020b1479', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A23D1090>]}
+[0m06:45:22.116781 [info ] [MainThread]: 
+[0m06:45:22.117479 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m06:45:22.118161 [info ] [MainThread]: 
+[0m06:45:22.118972 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m06:45:22.119361 [warn ] [MainThread]: State adapter: dbt State disabled: target type 'sqlite' is not supported. Supported target types are: bigquery, databricks, postgres, redshift, snowflake.
+[0m06:45:22.120708 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_medical_db'
+[0m06:45:22.133521 [debug] [ThreadPool]: Using sqlite connection "list_medical_db"
+[0m06:45:22.134025 [debug] [ThreadPool]: On list_medical_db: BEGIN
+[0m06:45:22.134371 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:45:22.145279 [debug] [ThreadPool]: SQL status: OK in 0.011 seconds
+[0m06:45:22.145820 [debug] [ThreadPool]: Using sqlite connection "list_medical_db"
+[0m06:45:22.146225 [debug] [ThreadPool]: On list_medical_db: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db"} */
+
+        pragma database_list
+    
+[0m06:45:22.146998 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:45:22.149341 [debug] [ThreadPool]: On list_medical_db: ROLLBACK
+[0m06:45:22.149966 [debug] [ThreadPool]: On list_medical_db: Close
+[0m06:45:22.152300 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_medical_db_main'
+[0m06:45:22.164385 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:45:22.165187 [debug] [ThreadPool]: On list_medical_db_main: BEGIN
+[0m06:45:22.165736 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:45:22.167194 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m06:45:22.167752 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:45:22.168195 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+        pragma database_list
+    
+[0m06:45:22.168652 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:45:22.170657 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:45:22.171202 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+            SELECT
+                'medical_db' as database
+                ,name
+                ,'main' AS schema
+                ,type as data_type
+            FROM
+                main.sqlite_master
+            WHERE
+                name NOT LIKE 'sqlite_%'
+        
+[0m06:45:22.176853 [debug] [ThreadPool]: SQL status: OK in 0.005 seconds
+[0m06:45:22.178608 [debug] [ThreadPool]: On list_medical_db_main: ROLLBACK
+[0m06:45:22.179079 [debug] [ThreadPool]: On list_medical_db_main: Close
+[0m06:45:22.180327 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c826a52d-f5b0-4726-9932-9927020b1479', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A210BE90>]}
+[0m06:45:22.180946 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:45:22.181311 [debug] [MainThread]: On master: BEGIN
+[0m06:45:22.181625 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m06:45:22.182575 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m06:45:22.182967 [debug] [MainThread]: On master: COMMIT
+[0m06:45:22.183293 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:45:22.183582 [debug] [MainThread]: On master: COMMIT
+[0m06:45:22.183880 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m06:45:22.184157 [debug] [MainThread]: On master: Close
+[0m06:45:22.227826 [debug] [Thread-3 (]: Began running node model.medical_warehouse.stg_telegram_messages
+[0m06:45:22.228534 [info ] [Thread-3 (]: 1 of 1 START sql view model main.stg_telegram_messages ......................... [RUN]
+[0m06:45:22.229428 [debug] [Thread-3 (]: Acquiring new sqlite connection 'model.medical_warehouse.stg_telegram_messages'
+[0m06:45:22.229855 [debug] [Thread-3 (]: Began compiling node model.medical_warehouse.stg_telegram_messages
+[0m06:45:22.236154 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_warehouse.stg_telegram_messages"
+[0m06:45:22.240360 [debug] [Thread-3 (]: Began executing node model.medical_warehouse.stg_telegram_messages
+[0m06:45:22.258718 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_warehouse.stg_telegram_messages"
+[0m06:45:22.261492 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:45:22.262547 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: BEGIN
+[0m06:45:22.263288 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m06:45:22.264655 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m06:45:22.265071 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:45:22.265431 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "model.medical_warehouse.stg_telegram_messages"} */
+
+    
+    create view main."stg_telegram_messages" as
+    select
+    message_id,
+    channel_name,
+    cast(message_date as timestamp) as message_date,
+    message_text,
+    length(message_text) as message_length,
+    views,
+    forwards,
+    has_media
+from telegram_messages
+where message_text is not null and message_text != '';
+[0m06:45:22.267381 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m06:45:22.273624 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: COMMIT
+[0m06:45:22.274067 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:45:22.274438 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: COMMIT
+[0m06:45:22.277985 [debug] [Thread-3 (]: SQL status: OK in 0.003 seconds
+[0m06:45:22.285683 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: Close
+[0m06:45:22.305153 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c826a52d-f5b0-4726-9932-9927020b1479', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A26BCE10>]}
+[0m06:45:22.306079 [info ] [Thread-3 (]: 1 of 1 OK created sql view model main.stg_telegram_messages .................... [[32mOK[0m in 0.06s]
+[0m06:45:22.307073 [debug] [Thread-3 (]: Finished running node model.medical_warehouse.stg_telegram_messages
+[0m06:45:22.308634 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:45:22.309021 [debug] [MainThread]: On master: BEGIN
+[0m06:45:22.309326 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m06:45:22.313657 [debug] [MainThread]: SQL status: OK in 0.004 seconds
+[0m06:45:22.314063 [debug] [MainThread]: On master: COMMIT
+[0m06:45:22.314388 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:45:22.314888 [debug] [MainThread]: On master: COMMIT
+[0m06:45:22.315236 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m06:45:22.315556 [debug] [MainThread]: On master: Close
+[0m06:45:22.316024 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:45:22.316342 [debug] [MainThread]: Connection 'list_medical_db' was properly closed.
+[0m06:45:22.316596 [debug] [MainThread]: Connection 'list_medical_db_main' was properly closed.
+[0m06:45:22.316824 [debug] [MainThread]: Connection 'model.medical_warehouse.stg_telegram_messages' was properly closed.
+[0m06:45:22.317115 [info ] [MainThread]: 
+[0m06:45:22.317551 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.20 seconds (0.20s).
+[0m06:45:22.318388 [debug] [MainThread]: Command end result
+[0m06:45:22.343110 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:45:22.346819 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:45:22.354296 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\run_results.json
+[0m06:45:22.354801 [info ] [MainThread]: 
+[0m06:45:22.355672 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m06:45:22.356443 [info ] [MainThread]: 
+[0m06:45:22.357084 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m06:45:22.358564 [debug] [MainThread]: Command `dbt run` succeeded at 06:45:22.358365 after 23.96 seconds
+[0m06:45:22.359102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A262BBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0A248CCB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E09D224250>]}
+[0m06:45:22.359640 [debug] [MainThread]: Flushing usage events
+[0m06:45:25.085806 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:48:12.999923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002770569DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027701C7F4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000277076D7C50>]}
+
+
+============================== 06:48:13.008899 | 402a9384-edbd-4720-ad32-d6cbc4ec59cc ==============================
+[0m06:48:13.008899 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:48:13.010233 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:48:13.287625 [warn ] [MainThread]: State adapter: Git branch detection skipped: Git error: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+[0m06:48:13.288197 [info ] [MainThread]: State adapter: dbt-state v2.23.6 is enabled
+[0m06:48:13.645693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '402a9384-edbd-4720-ad32-d6cbc4ec59cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002770973F950>]}
+[0m06:48:13.709433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '402a9384-edbd-4720-ad32-d6cbc4ec59cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027707E14C00>]}
+[0m06:48:13.710459 [info ] [MainThread]: Registered adapter: sqlite=1.10.0
+[0m06:48:13.980873 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m06:48:14.146326 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m06:48:14.146819 [debug] [MainThread]: Partial parsing: added file: medical_warehouse://models\marts\fct_channel_engagement.sql
+[0m06:48:14.387356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '402a9384-edbd-4720-ad32-d6cbc4ec59cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027709E54650>]}
+[0m06:48:14.441142 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:48:14.443492 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:48:14.445941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '402a9384-edbd-4720-ad32-d6cbc4ec59cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000277079E3110>]}
+[0m06:48:14.446459 [info ] [MainThread]: Found 2 models, 416 macros
+[0m06:48:14.447087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '402a9384-edbd-4720-ad32-d6cbc4ec59cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027709F92DD0>]}
+[0m06:48:14.448804 [info ] [MainThread]: 
+[0m06:48:14.449381 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m06:48:14.449790 [info ] [MainThread]: 
+[0m06:48:14.450278 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m06:48:14.450582 [warn ] [MainThread]: State adapter: dbt State disabled: target type 'sqlite' is not supported. Supported target types are: bigquery, databricks, postgres, redshift, snowflake.
+[0m06:48:14.455416 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_medical_db'
+[0m06:48:14.464050 [debug] [ThreadPool]: Using sqlite connection "list_medical_db"
+[0m06:48:14.464452 [debug] [ThreadPool]: On list_medical_db: BEGIN
+[0m06:48:14.464810 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:48:14.465846 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m06:48:14.466125 [debug] [ThreadPool]: Using sqlite connection "list_medical_db"
+[0m06:48:14.466515 [debug] [ThreadPool]: On list_medical_db: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db"} */
+
+        pragma database_list
+    
+[0m06:48:14.466853 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:48:14.467999 [debug] [ThreadPool]: On list_medical_db: ROLLBACK
+[0m06:48:14.468327 [debug] [ThreadPool]: On list_medical_db: Close
+[0m06:48:14.469607 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_medical_db_main'
+[0m06:48:14.476255 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:48:14.476622 [debug] [ThreadPool]: On list_medical_db_main: BEGIN
+[0m06:48:14.476893 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:48:14.477660 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m06:48:14.477938 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:48:14.478184 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+        pragma database_list
+    
+[0m06:48:14.478436 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:48:14.479567 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:48:14.479857 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+            SELECT
+                'medical_db' as database
+                ,name
+                ,'main' AS schema
+                ,type as data_type
+            FROM
+                main.sqlite_master
+            WHERE
+                name NOT LIKE 'sqlite_%'
+        
+[0m06:48:14.480547 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:48:14.481694 [debug] [ThreadPool]: On list_medical_db_main: ROLLBACK
+[0m06:48:14.482026 [debug] [ThreadPool]: On list_medical_db_main: Close
+[0m06:48:14.483289 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '402a9384-edbd-4720-ad32-d6cbc4ec59cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002770A07A340>]}
+[0m06:48:14.483715 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:48:14.483974 [debug] [MainThread]: On master: BEGIN
+[0m06:48:14.484195 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m06:48:14.484860 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m06:48:14.485166 [debug] [MainThread]: On master: COMMIT
+[0m06:48:14.485414 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:48:14.485644 [debug] [MainThread]: On master: COMMIT
+[0m06:48:14.485870 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m06:48:14.486091 [debug] [MainThread]: On master: Close
+[0m06:48:14.488963 [debug] [Thread-3 (]: Began running node model.medical_warehouse.stg_telegram_messages
+[0m06:48:14.489441 [info ] [Thread-3 (]: 1 of 2 START sql view model main.stg_telegram_messages ......................... [RUN]
+[0m06:48:14.490114 [debug] [Thread-3 (]: Acquiring new sqlite connection 'model.medical_warehouse.stg_telegram_messages'
+[0m06:48:14.490446 [debug] [Thread-3 (]: Began compiling node model.medical_warehouse.stg_telegram_messages
+[0m06:48:14.495633 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_warehouse.stg_telegram_messages"
+[0m06:48:14.496561 [debug] [Thread-3 (]: Began executing node model.medical_warehouse.stg_telegram_messages
+[0m06:48:14.510573 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:48:14.510962 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "model.medical_warehouse.stg_telegram_messages"} */
+drop view if exists "main"."stg_telegram_messages"
+[0m06:48:14.511260 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m06:48:14.517154 [debug] [Thread-3 (]: SQL status: OK in 0.006 seconds
+[0m06:48:14.521368 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_warehouse.stg_telegram_messages"
+[0m06:48:14.522350 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:48:14.522728 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: BEGIN
+[0m06:48:14.523048 [debug] [Thread-3 (]: SQL status: OK in 0.000 seconds
+[0m06:48:14.523333 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:48:14.523617 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "model.medical_warehouse.stg_telegram_messages"} */
+
+    
+    create view main."stg_telegram_messages" as
+    select
+    message_id,
+    channel_name,
+    cast(message_date as timestamp) as message_date,
+    message_text,
+    length(message_text) as message_length,
+    views,
+    forwards,
+    has_media
+from telegram_messages
+where message_text is not null and message_text != '';
+[0m06:48:14.524694 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m06:48:14.529697 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: COMMIT
+[0m06:48:14.530093 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:48:14.530404 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: COMMIT
+[0m06:48:14.533043 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m06:48:14.535618 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: Close
+[0m06:48:14.537393 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '402a9384-edbd-4720-ad32-d6cbc4ec59cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027709F84590>]}
+[0m06:48:14.537989 [info ] [Thread-3 (]: 1 of 2 OK created sql view model main.stg_telegram_messages .................... [[32mOK[0m in 0.05s]
+[0m06:48:14.538678 [debug] [Thread-3 (]: Finished running node model.medical_warehouse.stg_telegram_messages
+[0m06:48:14.539434 [debug] [Thread-3 (]: Began running node model.medical_warehouse.fct_channel_engagement
+[0m06:48:14.539912 [info ] [Thread-3 (]: 2 of 2 START sql table model main.fct_channel_engagement ....................... [RUN]
+[0m06:48:14.540413 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_warehouse.stg_telegram_messages, now model.medical_warehouse.fct_channel_engagement)
+[0m06:48:14.540731 [debug] [Thread-3 (]: Began compiling node model.medical_warehouse.fct_channel_engagement
+[0m06:48:14.544351 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_warehouse.fct_channel_engagement"
+[0m06:48:14.545488 [debug] [Thread-3 (]: Began executing node model.medical_warehouse.fct_channel_engagement
+[0m06:48:14.556240 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_warehouse.fct_channel_engagement"
+[0m06:48:14.557633 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.fct_channel_engagement"
+[0m06:48:14.558030 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: BEGIN
+[0m06:48:14.558359 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m06:48:14.561400 [debug] [Thread-3 (]: SQL status: OK in 0.003 seconds
+[0m06:48:14.561744 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.fct_channel_engagement"
+[0m06:48:14.562062 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "model.medical_warehouse.fct_channel_engagement"} */
+
+  
+    
+    
+    create  table main."fct_channel_engagement"
+    as
+        
+
+with staging_data as (
+    select
+        channel_name,
+        message_id,
+        message_date,
+        message_length,
+        views,
+        forwards,
+        has_media
+    from main."stg_telegram_messages"
+)
+
+select
+    channel_name,
+    count(message_id) as total_messages,
+    sum(views) as total_views,
+    sum(forwards) as total_forwards,
+    -- Calculate averages safely
+    round(avg(views), 2) as avg_views_per_post,
+    round(avg(forwards), 2) as avg_forwards_per_post,
+    -- Count how many messages included images/media
+    sum(case when has_media = 1 then 1 else 0 end) as total_media_messages
+from staging_data
+group by channel_name
+
+  
+[0m06:48:14.571074 [debug] [Thread-3 (]: SQL status: OK in 0.009 seconds
+[0m06:48:14.572327 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: COMMIT
+[0m06:48:14.572706 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.fct_channel_engagement"
+[0m06:48:14.573021 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: COMMIT
+[0m06:48:14.576746 [debug] [Thread-3 (]: SQL status: OK in 0.003 seconds
+[0m06:48:14.577517 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: Close
+[0m06:48:14.578224 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '402a9384-edbd-4720-ad32-d6cbc4ec59cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002770A0E8F70>]}
+[0m06:48:14.578846 [info ] [Thread-3 (]: 2 of 2 OK created sql table model main.fct_channel_engagement .................. [[32mOK[0m in 0.04s]
+[0m06:48:14.579875 [debug] [Thread-3 (]: Finished running node model.medical_warehouse.fct_channel_engagement
+[0m06:48:14.581547 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:48:14.582219 [debug] [MainThread]: On master: BEGIN
+[0m06:48:14.582912 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m06:48:14.585992 [debug] [MainThread]: SQL status: OK in 0.003 seconds
+[0m06:48:14.586409 [debug] [MainThread]: On master: COMMIT
+[0m06:48:14.586769 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:48:14.587080 [debug] [MainThread]: On master: COMMIT
+[0m06:48:14.587465 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m06:48:14.587786 [debug] [MainThread]: On master: Close
+[0m06:48:14.588222 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:48:14.588529 [debug] [MainThread]: Connection 'list_medical_db' was properly closed.
+[0m06:48:14.588799 [debug] [MainThread]: Connection 'list_medical_db_main' was properly closed.
+[0m06:48:14.589029 [debug] [MainThread]: Connection 'model.medical_warehouse.fct_channel_engagement' was properly closed.
+[0m06:48:14.589337 [info ] [MainThread]: 
+[0m06:48:14.589921 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 0.14 seconds (0.14s).
+[0m06:48:14.590835 [debug] [MainThread]: Command end result
+[0m06:48:14.610609 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:48:14.612908 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:48:14.619794 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\run_results.json
+[0m06:48:14.620164 [info ] [MainThread]: 
+[0m06:48:14.620633 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m06:48:14.621093 [info ] [MainThread]: 
+[0m06:48:14.621489 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m06:48:14.622434 [debug] [MainThread]: Command `dbt run` succeeded at 06:48:14.622317 after 1.97 seconds
+[0m06:48:14.622761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027709E451D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002770A0A7AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000277051D7E50>]}
+[0m06:48:14.623083 [debug] [MainThread]: Flushing usage events
+[0m06:48:17.040385 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:49:29.577056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002781E99DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002781AF5F4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278209DBC50>]}
+
+
+============================== 06:49:29.587015 | 40920e15-1b68-493c-9bcf-589ac1c04ee3 ==============================
+[0m06:49:29.587015 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:49:29.588661 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt test', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:49:30.030056 [warn ] [MainThread]: State adapter: Git branch detection skipped: Git error: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+[0m06:49:30.030942 [info ] [MainThread]: State adapter: dbt-state v2.23.6 is enabled
+[0m06:49:30.556977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '40920e15-1b68-493c-9bcf-589ac1c04ee3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002782298F950>]}
+[0m06:49:30.640456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '40920e15-1b68-493c-9bcf-589ac1c04ee3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278220F4C00>]}
+[0m06:49:30.641715 [info ] [MainThread]: Registered adapter: sqlite=1.10.0
+[0m06:49:31.005553 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m06:49:31.199132 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m06:49:31.199794 [debug] [MainThread]: Partial parsing: added file: medical_warehouse://models\marts\schema.yml
+[0m06:49:31.514610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40920e15-1b68-493c-9bcf-589ac1c04ee3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278230A0D50>]}
+[0m06:49:31.610037 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:49:31.612820 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:49:31.615956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '40920e15-1b68-493c-9bcf-589ac1c04ee3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027820CC3110>]}
+[0m06:49:31.616474 [info ] [MainThread]: Found 2 models, 3 data tests, 416 macros
+[0m06:49:31.617275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '40920e15-1b68-493c-9bcf-589ac1c04ee3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002782338B930>]}
+[0m06:49:31.619561 [info ] [MainThread]: 
+[0m06:49:31.620328 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m06:49:31.620930 [info ] [MainThread]: 
+[0m06:49:31.621749 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m06:49:31.622144 [warn ] [MainThread]: State adapter: dbt State disabled: target type 'sqlite' is not supported. Supported target types are: bigquery, databricks, postgres, redshift, snowflake.
+[0m06:49:31.628580 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_medical_db_main'
+[0m06:49:31.648423 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:49:31.648884 [debug] [ThreadPool]: On list_medical_db_main: BEGIN
+[0m06:49:31.649202 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:49:31.650451 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m06:49:31.650982 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:49:31.651313 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+        pragma database_list
+    
+[0m06:49:31.651704 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:49:31.653284 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:49:31.653714 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+            SELECT
+                'medical_db' as database
+                ,name
+                ,'main' AS schema
+                ,type as data_type
+            FROM
+                main.sqlite_master
+            WHERE
+                name NOT LIKE 'sqlite_%'
+        
+[0m06:49:31.654696 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m06:49:31.656335 [debug] [ThreadPool]: On list_medical_db_main: ROLLBACK
+[0m06:49:31.656873 [debug] [ThreadPool]: On list_medical_db_main: Close
+[0m06:49:31.658975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '40920e15-1b68-493c-9bcf-589ac1c04ee3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027823017D40>]}
+[0m06:49:31.659745 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:49:31.660225 [debug] [MainThread]: On master: BEGIN
+[0m06:49:31.660664 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m06:49:31.661948 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m06:49:31.662479 [debug] [MainThread]: On master: COMMIT
+[0m06:49:31.662975 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:49:31.663376 [debug] [MainThread]: On master: COMMIT
+[0m06:49:31.663786 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m06:49:31.664173 [debug] [MainThread]: On master: Close
+[0m06:49:31.669747 [debug] [Thread-3 (]: Began running node test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208
+[0m06:49:31.670426 [info ] [Thread-3 (]: 1 of 3 START test not_null_fct_channel_engagement_channel_name ................. [RUN]
+[0m06:49:31.671396 [debug] [Thread-3 (]: Acquiring new sqlite connection 'test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208'
+[0m06:49:31.672005 [debug] [Thread-3 (]: Began compiling node test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208
+[0m06:49:31.695421 [debug] [Thread-3 (]: Writing injected SQL for node "test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208"
+[0m06:49:31.697023 [debug] [Thread-3 (]: Began executing node test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208
+[0m06:49:31.720580 [debug] [Thread-3 (]: Writing runtime sql for node "test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208"
+[0m06:49:31.723042 [debug] [Thread-3 (]: Using sqlite connection "test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208"
+[0m06:49:31.723759 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208: BEGIN
+[0m06:49:31.724359 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m06:49:31.725767 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m06:49:31.726414 [debug] [Thread-3 (]: Using sqlite connection "test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208"
+[0m06:49:31.726994 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208"} */
+
+    select
+      count(*) as failures,
+      case when count(*) != 0
+        then 'true' else 'false' end as should_warn,
+      case when count(*) != 0
+        then 'true' else 'false' end as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select channel_name
+from main."fct_channel_engagement"
+where channel_name is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m06:49:31.728133 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m06:49:31.735431 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208: ROLLBACK
+[0m06:49:31.736161 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208: Close
+[0m06:49:31.737262 [info ] [Thread-3 (]: 1 of 3 PASS not_null_fct_channel_engagement_channel_name ....................... [[32mPASS[0m in 0.07s]
+[0m06:49:31.738704 [debug] [Thread-3 (]: Finished running node test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208
+[0m06:49:31.739376 [debug] [Thread-3 (]: Began running node test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897
+[0m06:49:31.740275 [info ] [Thread-3 (]: 2 of 3 START test not_null_fct_channel_engagement_total_messages ............... [RUN]
+[0m06:49:31.741390 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208, now test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897)
+[0m06:49:31.742047 [debug] [Thread-3 (]: Began compiling node test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897
+[0m06:49:31.748203 [debug] [Thread-3 (]: Writing injected SQL for node "test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897"
+[0m06:49:31.749888 [debug] [Thread-3 (]: Began executing node test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897
+[0m06:49:31.753196 [debug] [Thread-3 (]: Writing runtime sql for node "test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897"
+[0m06:49:31.755399 [debug] [Thread-3 (]: Using sqlite connection "test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897"
+[0m06:49:31.756137 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897: BEGIN
+[0m06:49:31.756870 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m06:49:31.759237 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m06:49:31.760035 [debug] [Thread-3 (]: Using sqlite connection "test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897"
+[0m06:49:31.760826 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897"} */
+
+    select
+      count(*) as failures,
+      case when count(*) != 0
+        then 'true' else 'false' end as should_warn,
+      case when count(*) != 0
+        then 'true' else 'false' end as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select total_messages
+from main."fct_channel_engagement"
+where total_messages is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m06:49:31.762272 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m06:49:31.764855 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897: ROLLBACK
+[0m06:49:31.765567 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897: Close
+[0m06:49:31.766706 [info ] [Thread-3 (]: 2 of 3 PASS not_null_fct_channel_engagement_total_messages ..................... [[32mPASS[0m in 0.03s]
+[0m06:49:31.768177 [debug] [Thread-3 (]: Finished running node test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897
+[0m06:49:31.768890 [debug] [Thread-3 (]: Began running node test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d
+[0m06:49:31.769881 [info ] [Thread-3 (]: 3 of 3 START test not_null_fct_channel_engagement_total_views .................. [RUN]
+[0m06:49:31.771009 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897, now test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d)
+[0m06:49:31.771713 [debug] [Thread-3 (]: Began compiling node test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d
+[0m06:49:31.779060 [debug] [Thread-3 (]: Writing injected SQL for node "test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d"
+[0m06:49:31.780961 [debug] [Thread-3 (]: Began executing node test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d
+[0m06:49:31.784276 [debug] [Thread-3 (]: Writing runtime sql for node "test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d"
+[0m06:49:31.786315 [debug] [Thread-3 (]: Using sqlite connection "test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d"
+[0m06:49:31.787017 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d: BEGIN
+[0m06:49:31.787587 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m06:49:31.789083 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m06:49:31.789761 [debug] [Thread-3 (]: Using sqlite connection "test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d"
+[0m06:49:31.790400 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d"} */
+
+    select
+      count(*) as failures,
+      case when count(*) != 0
+        then 'true' else 'false' end as should_warn,
+      case when count(*) != 0
+        then 'true' else 'false' end as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select total_views
+from main."fct_channel_engagement"
+where total_views is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m06:49:31.791699 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m06:49:31.793982 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d: ROLLBACK
+[0m06:49:31.794635 [debug] [Thread-3 (]: On test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d: Close
+[0m06:49:31.795583 [info ] [Thread-3 (]: 3 of 3 PASS not_null_fct_channel_engagement_total_views ........................ [[32mPASS[0m in 0.02s]
+[0m06:49:31.796862 [debug] [Thread-3 (]: Finished running node test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d
+[0m06:49:31.798848 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:49:31.799388 [debug] [MainThread]: On master: BEGIN
+[0m06:49:31.799830 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m06:49:31.801037 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m06:49:31.801512 [debug] [MainThread]: On master: COMMIT
+[0m06:49:31.801923 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:49:31.802305 [debug] [MainThread]: On master: COMMIT
+[0m06:49:31.802702 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m06:49:31.803084 [debug] [MainThread]: On master: Close
+[0m06:49:31.803639 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:49:31.803997 [debug] [MainThread]: Connection 'list_medical_db_main' was properly closed.
+[0m06:49:31.804334 [debug] [MainThread]: Connection 'test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d' was properly closed.
+[0m06:49:31.804708 [info ] [MainThread]: 
+[0m06:49:31.805330 [info ] [MainThread]: Finished running 3 data tests in 0 hours 0 minutes and 0.18 seconds (0.18s).
+[0m06:49:31.806802 [debug] [MainThread]: Command end result
+[0m06:49:31.831771 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:49:31.835134 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:49:31.843143 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\run_results.json
+[0m06:49:31.843554 [info ] [MainThread]: 
+[0m06:49:31.844275 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m06:49:31.844908 [info ] [MainThread]: 
+[0m06:49:31.845398 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m06:49:31.846562 [debug] [MainThread]: Command `dbt test` succeeded at 06:49:31.846411 after 2.49 seconds
+[0m06:49:31.846970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278209DC4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027823372BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027823372C50>]}
+[0m06:49:31.847353 [debug] [MainThread]: Flushing usage events
+[0m06:49:32.991213 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:50:04.223400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002586379DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002585FD2F4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002586579FB10>]}
+
+
+============================== 06:50:04.227933 | cda97ffb-2da5-4f4c-a4b3-f5af9cd6d45d ==============================
+[0m06:50:04.227933 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:50:04.228556 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'indirect_selection': 'eager', 'invocation_command': 'dbt docs generate', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:50:04.500401 [warn ] [MainThread]: State adapter: Git branch detection skipped: Git error: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+[0m06:50:04.501064 [info ] [MainThread]: State adapter: dbt-state v2.23.6 is installed
+[0m06:50:04.501579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cda97ffb-2da5-4f4c-a4b3-f5af9cd6d45d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025865EB6D70>]}
+[0m06:50:04.569844 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cda97ffb-2da5-4f4c-a4b3-f5af9cd6d45d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025865EF48D0>]}
+[0m06:50:04.570867 [info ] [MainThread]: Registered adapter: sqlite=1.10.0
+[0m06:50:04.794983 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m06:50:04.971960 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:50:04.972333 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m06:50:04.972584 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:50:05.011058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cda97ffb-2da5-4f4c-a4b3-f5af9cd6d45d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002586710E850>]}
+[0m06:50:05.041204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cda97ffb-2da5-4f4c-a4b3-f5af9cd6d45d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025865AB3200>]}
+[0m06:50:05.041721 [info ] [MainThread]: Found 2 models, 3 data tests, 416 macros
+[0m06:50:05.042302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cda97ffb-2da5-4f4c-a4b3-f5af9cd6d45d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025867218D70>]}
+[0m06:50:05.044224 [info ] [MainThread]: 
+[0m06:50:05.044730 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m06:50:05.045178 [info ] [MainThread]: 
+[0m06:50:05.045818 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m06:50:05.053054 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_medical_db_main'
+[0m06:50:05.142726 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:50:05.143112 [debug] [ThreadPool]: On list_medical_db_main: BEGIN
+[0m06:50:05.143375 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:50:05.144330 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m06:50:05.144687 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:50:05.144965 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+        pragma database_list
+    
+[0m06:50:05.145263 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:50:05.146580 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:50:05.146907 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+            SELECT
+                'medical_db' as database
+                ,name
+                ,'main' AS schema
+                ,type as data_type
+            FROM
+                main.sqlite_master
+            WHERE
+                name NOT LIKE 'sqlite_%'
+        
+[0m06:50:05.147568 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:50:05.148647 [debug] [ThreadPool]: On list_medical_db_main: ROLLBACK
+[0m06:50:05.148957 [debug] [ThreadPool]: On list_medical_db_main: Close
+[0m06:50:05.150263 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cda97ffb-2da5-4f4c-a4b3-f5af9cd6d45d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258674C5570>]}
+[0m06:50:05.153552 [debug] [Thread-3 (]: Began running node model.medical_warehouse.stg_telegram_messages
+[0m06:50:05.154043 [debug] [Thread-3 (]: Acquiring new sqlite connection 'model.medical_warehouse.stg_telegram_messages'
+[0m06:50:05.154375 [debug] [Thread-3 (]: Began compiling node model.medical_warehouse.stg_telegram_messages
+[0m06:50:05.159425 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_warehouse.stg_telegram_messages"
+[0m06:50:05.160324 [debug] [Thread-3 (]: Began executing node model.medical_warehouse.stg_telegram_messages
+[0m06:50:05.160977 [debug] [Thread-3 (]: Finished running node model.medical_warehouse.stg_telegram_messages
+[0m06:50:05.161672 [debug] [Thread-3 (]: Began running node model.medical_warehouse.fct_channel_engagement
+[0m06:50:05.162051 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_warehouse.stg_telegram_messages, now model.medical_warehouse.fct_channel_engagement)
+[0m06:50:05.162393 [debug] [Thread-3 (]: Began compiling node model.medical_warehouse.fct_channel_engagement
+[0m06:50:05.166547 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_warehouse.fct_channel_engagement"
+[0m06:50:05.167591 [debug] [Thread-3 (]: Began executing node model.medical_warehouse.fct_channel_engagement
+[0m06:50:05.168228 [debug] [Thread-3 (]: Finished running node model.medical_warehouse.fct_channel_engagement
+[0m06:50:05.168854 [debug] [Thread-3 (]: Began running node test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208
+[0m06:50:05.169251 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_warehouse.fct_channel_engagement, now test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208)
+[0m06:50:05.169578 [debug] [Thread-3 (]: Began compiling node test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208
+[0m06:50:05.179623 [debug] [Thread-3 (]: Writing injected SQL for node "test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208"
+[0m06:50:05.180558 [debug] [Thread-3 (]: Began executing node test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208
+[0m06:50:05.181244 [debug] [Thread-3 (]: Finished running node test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208
+[0m06:50:05.181632 [debug] [Thread-3 (]: Began running node test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897
+[0m06:50:05.182256 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.medical_warehouse.not_null_fct_channel_engagement_channel_name.c734f31208, now test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897)
+[0m06:50:05.182694 [debug] [Thread-3 (]: Began compiling node test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897
+[0m06:50:05.186989 [debug] [Thread-3 (]: Writing injected SQL for node "test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897"
+[0m06:50:05.188159 [debug] [Thread-3 (]: Began executing node test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897
+[0m06:50:05.189005 [debug] [Thread-3 (]: Finished running node test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897
+[0m06:50:05.189471 [debug] [Thread-3 (]: Began running node test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d
+[0m06:50:05.189879 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.medical_warehouse.not_null_fct_channel_engagement_total_messages.e6f3dac897, now test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d)
+[0m06:50:05.190702 [debug] [Thread-3 (]: Began compiling node test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d
+[0m06:50:05.194036 [debug] [Thread-3 (]: Writing injected SQL for node "test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d"
+[0m06:50:05.194884 [debug] [Thread-3 (]: Began executing node test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d
+[0m06:50:05.195488 [debug] [Thread-3 (]: Finished running node test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d
+[0m06:50:05.196399 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:50:05.196679 [debug] [MainThread]: Connection 'list_medical_db_main' was properly closed.
+[0m06:50:05.196904 [debug] [MainThread]: Connection 'test.medical_warehouse.not_null_fct_channel_engagement_total_views.8909bd3d5d' was properly closed.
+[0m06:50:05.197842 [debug] [MainThread]: Command end result
+[0m06:50:05.265085 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:50:05.267330 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:50:05.273658 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\run_results.json
+[0m06:50:05.596617 [debug] [MainThread]: Acquiring new sqlite connection 'generate_catalog'
+[0m06:50:05.597194 [info ] [MainThread]: Building catalog
+[0m06:50:05.615188 [debug] [ThreadPool]: Acquiring new sqlite connection 'medical_db.information_schema'
+[0m06:50:05.618465 [debug] [ThreadPool]: Using sqlite connection "medical_db.information_schema"
+[0m06:50:05.619139 [debug] [ThreadPool]: On medical_db.information_schema: BEGIN
+[0m06:50:05.619683 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:50:05.621082 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m06:50:05.621621 [debug] [ThreadPool]: Using sqlite connection "medical_db.information_schema"
+[0m06:50:05.622039 [debug] [ThreadPool]: On medical_db.information_schema: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "medical_db.information_schema"} */
+
+        pragma database_list
+    
+[0m06:50:05.622492 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:50:05.624262 [debug] [ThreadPool]: Using sqlite connection "medical_db.information_schema"
+[0m06:50:05.624732 [debug] [ThreadPool]: On medical_db.information_schema: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "medical_db.information_schema"} */
+
+            SELECT
+                'medical_db' as database
+                ,name
+                ,'main' AS schema
+                ,type as data_type
+            FROM
+                main.sqlite_master
+            WHERE
+                name NOT LIKE 'sqlite_%'
+        
+[0m06:50:05.625802 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:50:05.627862 [debug] [ThreadPool]: Using sqlite connection "medical_db.information_schema"
+[0m06:50:05.628360 [debug] [ThreadPool]: On medical_db.information_schema: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "medical_db.information_schema"} */
+pragma main.table_info(telegram_messages)
+[0m06:50:05.628912 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:50:05.630432 [debug] [ThreadPool]: Using sqlite connection "medical_db.information_schema"
+[0m06:50:05.630919 [debug] [ThreadPool]: On medical_db.information_schema: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "medical_db.information_schema"} */
+pragma main.table_info(stg_telegram_messages)
+[0m06:50:05.631453 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:50:05.633322 [debug] [ThreadPool]: Using sqlite connection "medical_db.information_schema"
+[0m06:50:05.633884 [debug] [ThreadPool]: On medical_db.information_schema: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "medical_db.information_schema"} */
+pragma main.table_info(fct_channel_engagement)
+[0m06:50:05.634408 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:50:05.647087 [debug] [ThreadPool]: On medical_db.information_schema: ROLLBACK
+[0m06:50:05.647590 [debug] [ThreadPool]: On medical_db.information_schema: Close
+[0m06:50:05.664541 [debug] [MainThread]: Wrote artifact CatalogArtifact to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\catalog.json
+[0m06:50:05.684525 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:50:05.686859 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:50:05.687192 [info ] [MainThread]: Catalog written to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\catalog.json
+[0m06:50:05.688506 [debug] [MainThread]: Command `dbt docs generate` succeeded at 06:50:05.688369 after 1.58 seconds
+[0m06:50:05.688821 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m06:50:05.689061 [debug] [MainThread]: Connection 'medical_db.information_schema' was properly closed.
+[0m06:50:05.689530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258657DC4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258674D71D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258674D73E0>]}
+[0m06:50:05.689920 [debug] [MainThread]: Flushing usage events
+[0m06:50:06.824792 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:50:17.286230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E795ACDE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7920BF4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E797B8BC50>]}
+
+
+============================== 06:50:17.291441 | b1bad981-2b54-4a5f-bc4a-5699d91d7fcc ==============================
+[0m06:50:17.291441 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:50:17.292076 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'invocation_command': 'dbt docs serve', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:50:17.580944 [warn ] [MainThread]: State adapter: Git branch detection skipped: Git error: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+[0m06:50:17.581643 [info ] [MainThread]: State adapter: dbt-state v2.23.6 is installed
+[0m06:50:17.582215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b1bad981-2b54-4a5f-bc4a-5699d91d7fcc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7982B6D70>]}
+[0m06:50:17.653392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b1bad981-2b54-4a5f-bc4a-5699d91d7fcc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E7982F49E0>]}
+[0m06:51:36.552999 [error] [MainThread]: Encountered an error:
+
+[0m06:51:36.578988 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\lydia\Desktop\medical-telegram-warehouse\venv\Lib\site-packages\dbt\cli\requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\lydia\Desktop\medical-telegram-warehouse\venv\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lydia\Desktop\medical-telegram-warehouse\venv\Lib\site-packages\dbt\cli\requires.py", line 276, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lydia\Desktop\medical-telegram-warehouse\venv\Lib\site-packages\dbt\cli\requires.py", line 321, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lydia\Desktop\medical-telegram-warehouse\venv\Lib\site-packages\dbt\cli\requires.py", line 368, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lydia\Desktop\medical-telegram-warehouse\venv\Lib\site-packages\dbt\cli\main.py", line 309, in docs_serve
+    results = task.run()
+  File "C:\Users\lydia\Desktop\medical-telegram-warehouse\venv\Lib\site-packages\dbt\task\docs\serve.py", line 29, in run
+    httpd.serve_forever()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 235, in serve_forever
+    ready = selector.select(poll_interval)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\selectors.py", line 314, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\selectors.py", line 305, in _select
+    r, w, x = select.select(r, w, w, timeout)
+              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[0m06:51:36.580514 [debug] [MainThread]: Command `dbt docs serve` failed at 06:51:36.580355 after 79.41 seconds
+[0m06:51:36.580922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E798429450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E798429350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E798303C50>]}
+[0m06:51:36.581315 [debug] [MainThread]: Flushing usage events
+[0m06:51:37.837636 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:53:12.872764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002836F7ADE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002836BD9F4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283718D7C50>]}
+
+
+============================== 06:53:12.880166 | 2ab0166b-a5ef-4516-b225-d53edf3660db ==============================
+[0m06:53:12.880166 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:53:12.881114 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\lydia\\Desktop\\medical-telegram-warehouse\\medical_warehouse\\logs'}
+[0m06:53:13.192185 [warn ] [MainThread]: State adapter: Git branch detection skipped: Git error: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+[0m06:53:13.192844 [info ] [MainThread]: State adapter: dbt-state v2.23.6 is enabled
+[0m06:53:13.577429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2ab0166b-a5ef-4516-b225-d53edf3660db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002837383F950>]}
+[0m06:53:13.654782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2ab0166b-a5ef-4516-b225-d53edf3660db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028371FF4C00>]}
+[0m06:53:13.655957 [info ] [MainThread]: Registered adapter: sqlite=1.10.0
+[0m06:53:13.930270 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m06:53:14.098078 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m06:53:14.098579 [debug] [MainThread]: Partial parsing: added file: medical_warehouse://models\staging\stg_cleaned_messages.sql
+[0m06:53:14.354665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2ab0166b-a5ef-4516-b225-d53edf3660db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028373F5A150>]}
+[0m06:53:14.420931 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:53:14.423518 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:53:14.426642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2ab0166b-a5ef-4516-b225-d53edf3660db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028371BBF110>]}
+[0m06:53:14.427070 [info ] [MainThread]: Found 3 models, 3 data tests, 416 macros
+[0m06:53:14.427595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2ab0166b-a5ef-4516-b225-d53edf3660db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028373F02DD0>]}
+[0m06:53:14.429966 [info ] [MainThread]: 
+[0m06:53:14.430829 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m06:53:14.431347 [info ] [MainThread]: 
+[0m06:53:14.431894 [debug] [MainThread]: Acquiring new sqlite connection 'master'
+[0m06:53:14.432220 [warn ] [MainThread]: State adapter: dbt State disabled: target type 'sqlite' is not supported. Supported target types are: bigquery, databricks, postgres, redshift, snowflake.
+[0m06:53:14.437680 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_medical_db'
+[0m06:53:14.447299 [debug] [ThreadPool]: Using sqlite connection "list_medical_db"
+[0m06:53:14.447694 [debug] [ThreadPool]: On list_medical_db: BEGIN
+[0m06:53:14.447963 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:53:14.448945 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m06:53:14.449225 [debug] [ThreadPool]: Using sqlite connection "list_medical_db"
+[0m06:53:14.449466 [debug] [ThreadPool]: On list_medical_db: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db"} */
+
+        pragma database_list
+    
+[0m06:53:14.449745 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:53:14.450861 [debug] [ThreadPool]: On list_medical_db: ROLLBACK
+[0m06:53:14.451162 [debug] [ThreadPool]: On list_medical_db: Close
+[0m06:53:14.452655 [debug] [ThreadPool]: Acquiring new sqlite connection 'list_medical_db_main'
+[0m06:53:14.459459 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:53:14.459815 [debug] [ThreadPool]: On list_medical_db_main: BEGIN
+[0m06:53:14.460071 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:53:14.460802 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m06:53:14.461076 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:53:14.461299 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+        pragma database_list
+    
+[0m06:53:14.461534 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:53:14.462673 [debug] [ThreadPool]: Using sqlite connection "list_medical_db_main"
+[0m06:53:14.462971 [debug] [ThreadPool]: On list_medical_db_main: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "connection_name": "list_medical_db_main"} */
+
+            SELECT
+                'medical_db' as database
+                ,name
+                ,'main' AS schema
+                ,type as data_type
+            FROM
+                main.sqlite_master
+            WHERE
+                name NOT LIKE 'sqlite_%'
+        
+[0m06:53:14.463659 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m06:53:14.464662 [debug] [ThreadPool]: On list_medical_db_main: ROLLBACK
+[0m06:53:14.464955 [debug] [ThreadPool]: On list_medical_db_main: Close
+[0m06:53:14.466151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2ab0166b-a5ef-4516-b225-d53edf3660db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283740CE5B0>]}
+[0m06:53:14.466534 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:53:14.466775 [debug] [MainThread]: On master: BEGIN
+[0m06:53:14.466991 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m06:53:14.467602 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m06:53:14.467899 [debug] [MainThread]: On master: COMMIT
+[0m06:53:14.468150 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:53:14.468368 [debug] [MainThread]: On master: COMMIT
+[0m06:53:14.468601 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m06:53:14.468826 [debug] [MainThread]: On master: Close
+[0m06:53:14.471876 [debug] [Thread-3 (]: Began running node model.medical_warehouse.stg_telegram_messages
+[0m06:53:14.472380 [info ] [Thread-3 (]: 1 of 3 START sql view model main.stg_telegram_messages ......................... [RUN]
+[0m06:53:14.472923 [debug] [Thread-3 (]: Acquiring new sqlite connection 'model.medical_warehouse.stg_telegram_messages'
+[0m06:53:14.473244 [debug] [Thread-3 (]: Began compiling node model.medical_warehouse.stg_telegram_messages
+[0m06:53:14.478241 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_warehouse.stg_telegram_messages"
+[0m06:53:14.479150 [debug] [Thread-3 (]: Began executing node model.medical_warehouse.stg_telegram_messages
+[0m06:53:14.493626 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:53:14.494023 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "model.medical_warehouse.stg_telegram_messages"} */
+drop view if exists "main"."stg_telegram_messages"
+[0m06:53:14.494321 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m06:53:14.499517 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m06:53:14.503337 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_warehouse.stg_telegram_messages"
+[0m06:53:14.504304 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:53:14.504637 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: BEGIN
+[0m06:53:14.504945 [debug] [Thread-3 (]: SQL status: OK in 0.000 seconds
+[0m06:53:14.505239 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:53:14.505506 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "model.medical_warehouse.stg_telegram_messages"} */
+
+    
+    create view main."stg_telegram_messages" as
+    select
+    message_id,
+    channel_name,
+    cast(message_date as timestamp) as message_date,
+    message_text,
+    length(message_text) as message_length,
+    views,
+    forwards,
+    has_media
+from telegram_messages
+where message_text is not null and message_text != '';
+[0m06:53:14.506620 [debug] [Thread-3 (]: SQL status: OK in 0.001 seconds
+[0m06:53:14.511544 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: COMMIT
+[0m06:53:14.511921 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_telegram_messages"
+[0m06:53:14.512226 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: COMMIT
+[0m06:53:14.515161 [debug] [Thread-3 (]: SQL status: OK in 0.003 seconds
+[0m06:53:14.517677 [debug] [Thread-3 (]: On model.medical_warehouse.stg_telegram_messages: Close
+[0m06:53:14.519511 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2ab0166b-a5ef-4516-b225-d53edf3660db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028373F74AD0>]}
+[0m06:53:14.520117 [info ] [Thread-3 (]: 1 of 3 OK created sql view model main.stg_telegram_messages .................... [[32mOK[0m in 0.05s]
+[0m06:53:14.520784 [debug] [Thread-3 (]: Finished running node model.medical_warehouse.stg_telegram_messages
+[0m06:53:14.521439 [debug] [Thread-3 (]: Began running node model.medical_warehouse.fct_channel_engagement
+[0m06:53:14.521904 [info ] [Thread-3 (]: 2 of 3 START sql table model main.fct_channel_engagement ....................... [RUN]
+[0m06:53:14.522577 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_warehouse.stg_telegram_messages, now model.medical_warehouse.fct_channel_engagement)
+[0m06:53:14.522918 [debug] [Thread-3 (]: Began compiling node model.medical_warehouse.fct_channel_engagement
+[0m06:53:14.527055 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_warehouse.fct_channel_engagement"
+[0m06:53:14.527915 [debug] [Thread-3 (]: Began executing node model.medical_warehouse.fct_channel_engagement
+[0m06:53:14.535320 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.fct_channel_engagement"
+[0m06:53:14.535697 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "model.medical_warehouse.fct_channel_engagement"} */
+drop table if exists "main"."fct_channel_engagement"
+[0m06:53:14.535997 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m06:53:14.543129 [debug] [Thread-3 (]: SQL status: OK in 0.007 seconds
+[0m06:53:14.548217 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_warehouse.fct_channel_engagement"
+[0m06:53:14.549140 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.fct_channel_engagement"
+[0m06:53:14.549476 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: BEGIN
+[0m06:53:14.549778 [debug] [Thread-3 (]: SQL status: OK in 0.000 seconds
+[0m06:53:14.550040 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.fct_channel_engagement"
+[0m06:53:14.550318 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "model.medical_warehouse.fct_channel_engagement"} */
+
+  
+    
+    
+    create  table main."fct_channel_engagement"
+    as
+        
+
+with staging_data as (
+    select
+        channel_name,
+        message_id,
+        message_date,
+        message_length,
+        views,
+        forwards,
+        has_media
+    from main."stg_telegram_messages"
+)
+
+select
+    channel_name,
+    count(message_id) as total_messages,
+    sum(views) as total_views,
+    sum(forwards) as total_forwards,
+    -- Calculate averages safely
+    round(avg(views), 2) as avg_views_per_post,
+    round(avg(forwards), 2) as avg_forwards_per_post,
+    -- Count how many messages included images/media
+    sum(case when has_media = 1 then 1 else 0 end) as total_media_messages
+from staging_data
+group by channel_name
+
+  
+[0m06:53:14.556038 [debug] [Thread-3 (]: SQL status: OK in 0.005 seconds
+[0m06:53:14.557253 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: COMMIT
+[0m06:53:14.557617 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.fct_channel_engagement"
+[0m06:53:14.557917 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: COMMIT
+[0m06:53:14.560581 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m06:53:14.561310 [debug] [Thread-3 (]: On model.medical_warehouse.fct_channel_engagement: Close
+[0m06:53:14.561936 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2ab0166b-a5ef-4516-b225-d53edf3660db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283741BA830>]}
+[0m06:53:14.562499 [info ] [Thread-3 (]: 2 of 3 OK created sql table model main.fct_channel_engagement .................. [[32mOK[0m in 0.04s]
+[0m06:53:14.563238 [debug] [Thread-3 (]: Finished running node model.medical_warehouse.fct_channel_engagement
+[0m06:53:14.563592 [debug] [Thread-3 (]: Began running node model.medical_warehouse.stg_cleaned_messages
+[0m06:53:14.564066 [info ] [Thread-3 (]: 3 of 3 START sql view model main.stg_cleaned_messages .......................... [RUN]
+[0m06:53:14.564625 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.medical_warehouse.fct_channel_engagement, now model.medical_warehouse.stg_cleaned_messages)
+[0m06:53:14.564938 [debug] [Thread-3 (]: Began compiling node model.medical_warehouse.stg_cleaned_messages
+[0m06:53:14.567684 [debug] [Thread-3 (]: Writing injected SQL for node "model.medical_warehouse.stg_cleaned_messages"
+[0m06:53:14.568544 [debug] [Thread-3 (]: Began executing node model.medical_warehouse.stg_cleaned_messages
+[0m06:53:14.570218 [debug] [Thread-3 (]: Writing runtime sql for node "model.medical_warehouse.stg_cleaned_messages"
+[0m06:53:14.571335 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_cleaned_messages"
+[0m06:53:14.571681 [debug] [Thread-3 (]: On model.medical_warehouse.stg_cleaned_messages: BEGIN
+[0m06:53:14.572008 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m06:53:14.574596 [debug] [Thread-3 (]: SQL status: OK in 0.003 seconds
+[0m06:53:14.574961 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_cleaned_messages"
+[0m06:53:14.575309 [debug] [Thread-3 (]: On model.medical_warehouse.stg_cleaned_messages: /* {"app": "dbt", "dbt_version": "1.11.11", "profile_name": "medical_warehouse", "target_name": "dev", "node_id": "model.medical_warehouse.stg_cleaned_messages"} */
+
+    
+    create view main."stg_cleaned_messages" as
+    
+
+with raw_data as (
+    select
+        message_id,
+        channel_name,
+        message_date,
+        message_text,
+        coalesce(views, 0) as views,
+        coalesce(forwards, 0) as forwards,
+        has_media
+    from main."stg_telegram_messages"
+)
+
+select
+    message_id,
+    channel_name,
+    message_date,
+    -- Basic text cleaning: strip trailing white spaces and force lowercase for consistency
+    lower(trim(message_text)) as cleaned_text,
+    length(message_text) as character_count,
+    -- Feature engineering: calculate the word count using space separation
+    (length(trim(message_text)) - length(replace(trim(message_text), ' ', '')) + 1) as word_count,
+    views,
+    forwards,
+    has_media
+where message_text is not null 
+  and message_text != ''
+  and length(trim(message_text)) > 5  -- Filter out empty or meaningless single-word alerts;
+[0m06:53:14.577530 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m06:53:14.578633 [debug] [Thread-3 (]: On model.medical_warehouse.stg_cleaned_messages: COMMIT
+[0m06:53:14.578998 [debug] [Thread-3 (]: Using sqlite connection "model.medical_warehouse.stg_cleaned_messages"
+[0m06:53:14.579294 [debug] [Thread-3 (]: On model.medical_warehouse.stg_cleaned_messages: COMMIT
+[0m06:53:14.582058 [debug] [Thread-3 (]: SQL status: OK in 0.002 seconds
+[0m06:53:14.582779 [debug] [Thread-3 (]: On model.medical_warehouse.stg_cleaned_messages: Close
+[0m06:53:14.583328 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2ab0166b-a5ef-4516-b225-d53edf3660db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028373EC8CD0>]}
+[0m06:53:14.583867 [info ] [Thread-3 (]: 3 of 3 OK created sql view model main.stg_cleaned_messages ..................... [[32mOK[0m in 0.02s]
+[0m06:53:14.584423 [debug] [Thread-3 (]: Finished running node model.medical_warehouse.stg_cleaned_messages
+[0m06:53:14.585536 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:53:14.585810 [debug] [MainThread]: On master: BEGIN
+[0m06:53:14.586046 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m06:53:14.588893 [debug] [MainThread]: SQL status: OK in 0.003 seconds
+[0m06:53:14.589233 [debug] [MainThread]: On master: COMMIT
+[0m06:53:14.589509 [debug] [MainThread]: Using sqlite connection "master"
+[0m06:53:14.589741 [debug] [MainThread]: On master: COMMIT
+[0m06:53:14.589978 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m06:53:14.590205 [debug] [MainThread]: On master: Close
+[0m06:53:14.590574 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:53:14.590829 [debug] [MainThread]: Connection 'list_medical_db' was properly closed.
+[0m06:53:14.591036 [debug] [MainThread]: Connection 'list_medical_db_main' was properly closed.
+[0m06:53:14.591227 [debug] [MainThread]: Connection 'model.medical_warehouse.stg_cleaned_messages' was properly closed.
+[0m06:53:14.591533 [info ] [MainThread]: 
+[0m06:53:14.592049 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 0.16 seconds (0.16s).
+[0m06:53:14.593011 [debug] [MainThread]: Command end result
+[0m06:53:14.612068 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\manifest.json
+[0m06:53:14.614275 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\semantic_manifest.json
+[0m06:53:14.619923 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\lydia\Desktop\medical-telegram-warehouse\medical_warehouse\target\run_results.json
+[0m06:53:14.620275 [info ] [MainThread]: 
+[0m06:53:14.620799 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m06:53:14.621178 [info ] [MainThread]: 
+[0m06:53:14.621605 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m06:53:14.622773 [debug] [MainThread]: Command `dbt run` succeeded at 06:53:14.622647 after 1.89 seconds
+[0m06:53:14.623120 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028371911C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002836C81E050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002837190FE00>]}
+[0m06:53:14.623463 [debug] [MainThread]: Flushing usage events
+[0m06:53:15.960266 [debug] [MainThread]: An error was encountered while trying to flush usage events
