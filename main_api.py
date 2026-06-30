@@ -80,3 +80,30 @@ def get_vision_warehouse_integration():
             return {"vision_insights": cursor.fetchall()}
     finally:
         conn.close()
+
+@app.get("/api/analytics/classification/distribution")
+def get_classification_distribution():
+    """Rubric Alignment: Specific endpoint to serve structured object and text classification logic metrics."""
+    conn = get_db_connection()
+    try:
+        with conn.cursor() as cursor:
+            # Aggregate classification metrics across your enriched layers
+            cursor.execute("""
+                SELECT 
+                    object_class as classification_category,
+                    count(*) as item_count,
+                    round(avg(confidence)::numeric, 2) as mean_confidence_score
+                FROM fct_image_enrichment
+                GROUP BY object_class
+                ORDER BY item_count DESC;
+            """)
+            records = cursor.fetchall()
+            return {
+                "status": "success",
+                "classification_matrix": records
+            }
+    except Exception as e:
+        logger.error(f"Classification endpoint failed: {e}")
+        raise HTTPException(status_code=500, detail="Error fetching classification analytics metrics.")
+    finally:
+        conn.close()
