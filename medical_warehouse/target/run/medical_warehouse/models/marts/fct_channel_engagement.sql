@@ -1,10 +1,14 @@
 
   
     
-    
-    create  table main."fct_channel_engagement"
+
+  create  table "medical_warehouse"."public"."fct_channel_engagement__dbt_tmp"
+  
+  
     as
-        
+  
+  (
+    
 
 with staging_data as (
     select
@@ -15,7 +19,7 @@ with staging_data as (
         views,
         forwards,
         has_media
-    from main."stg_telegram_messages"
+    from "medical_warehouse"."public"."stg_telegram_messages"
 )
 
 select
@@ -30,5 +34,5 @@ select
     sum(case when has_media = 1 then 1 else 0 end) as total_media_messages
 from staging_data
 group by channel_name
-
+  );
   

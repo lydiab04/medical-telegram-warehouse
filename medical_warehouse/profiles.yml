@@ -2,10 +2,11 @@ medical_warehouse:
   target: dev
   outputs:
     dev:
-      type: sqlite
-      threads: 1
-      database: "medical_db"
-      schema: "main"
-      schema_directory: 'C:/Users/lydia/Desktop/medical-telegram-warehouse'
-      schemas_and_paths:
-        main: 'C:/Users/lydia/Desktop/medical-telegram-warehouse/medical_db.sqlite'
+      type: postgres
+      host: localhost
+      user: postgres
+      password: jose1383
+      port: 5432
+      dbname: medical_warehouse
+      schema: public
+      threads: 4

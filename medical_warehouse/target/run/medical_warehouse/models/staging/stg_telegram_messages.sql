@@ -1,6 +1,8 @@
 
+  create view "medical_warehouse"."public"."stg_telegram_messages__dbt_tmp"
     
-    create view main."stg_telegram_messages" as
+    
+  as (
     select
     message_id,
     channel_name,
@@ -10,5 +12,6 @@
     views,
     forwards,
     has_media
-from telegram_messages
-where message_text is not null and message_text != '';
+from raw_messages
+where message_text is not null and message_text != ''
+  );

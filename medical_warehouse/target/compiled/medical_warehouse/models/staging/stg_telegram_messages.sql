@@ -7,5 +7,5 @@ select
     views,
     forwards,
     has_media
-from telegram_messages
+from raw_messages
 where message_text is not null and message_text != ''

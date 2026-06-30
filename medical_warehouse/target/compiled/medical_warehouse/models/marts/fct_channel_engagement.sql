@@ -9,7 +9,7 @@ with staging_data as (
         views,
         forwards,
         has_media
-    from main."stg_telegram_messages"
+    from "medical_warehouse"."public"."stg_telegram_messages"
 )
 
 select
