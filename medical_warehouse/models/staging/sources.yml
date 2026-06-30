@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: public
+    description: "Raw operational database landing layer for scraped and inferred multi-modal assets."
+    database: medical_warehouse # Ensure this matches your actual database name in profiles.yml
+    schema: public
+    tables:
+      - name: raw_messages
+        description: "Raw unstructured messaging payloads streamed from the Telegram scraper."
+      - name: detected_objects
+        description: "Raw computer vision attributes logged directly from the YOLOv8 enrichment pipeline."

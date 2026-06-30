@@ -1,15 +1,7 @@
 
 
-with staging_data as (
-    select
-        channel_name,
-        message_id,
-        message_date,
-        message_length,
-        views,
-        forwards,
-        has_media
-    from "medical_warehouse"."public"."stg_telegram_messages"
+with cleaned_data as (
+    select * from "medical_warehouse"."public"."stg_cleaned_messages"
 )
 
 select
@@ -17,10 +9,7 @@ select
     count(message_id) as total_messages,
     sum(views) as total_views,
     sum(forwards) as total_forwards,
-    -- Calculate averages safely
-    round(avg(views), 2) as avg_views_per_post,
-    round(avg(forwards), 2) as avg_forwards_per_post,
-    -- Count how many messages included images/media
-    sum(case when has_media = 1 then 1 else 0 end) as total_media_messages
-from staging_data
+    round(avg(character_count), 2) as avg_character_count,
+    round(avg(word_count), 2) as avg_word_count
+from cleaned_data
 group by channel_name
